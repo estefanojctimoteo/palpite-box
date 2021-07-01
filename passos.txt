@@ -1,0 +1,19 @@
+npm init -y
+npm install next react react-dom
+
+características do Next:
+1) renderização somente no navegador
+2) server side rendering
+3) geração de rotas estáticas
+4) consegue criar API's
+
+parar o servidor <ctrl>+C
+npm install tailwindcss
+npx tailwindcss init
+npm install postcss-import
+npm install autoprefixer
+
+cria pages/_app.js
+
+reinicia o servidor
+npm run dev
