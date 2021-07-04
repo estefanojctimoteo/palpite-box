@@ -1,13 +1,12 @@
 import React from 'react'
-
 import '../css/styles.css'
+import Layout from '../components/Layout'
 
 const MyApp = ({ Component, pageProps }) => {
   return (
-    <div>
-      <h1 className="bg-green-400 md:bg-red-900 lg:bg-purple-800 p-8">MyApp</h1>
+    <Layout>
       <Component {...pageProps} />
-    </div>
+    </Layout>
   )
 }
 export default MyApp
